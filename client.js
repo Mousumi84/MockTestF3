@@ -137,20 +137,21 @@ sortmkt.addEventListener("click",() => {
     for(let i=0;i<10;i++) {
         mkcapArr[i]=makcap[i].innerText;
     }
-    console.log(mkcapArr);
+    //console.log(mkcapArr);
+    let tag=[];
+   // for(j=9;j>=0;j--) {
+        for(let i=0;i<10;i++) {
+            tag[i] = makcap[i].parentNode.parentNode; 
 
-    for(j=9;j>=0;j--) {
-        let tag = makcap[j].parentNode.parentNode; 
-
-        databox.remove();
-        let datacont=document.createElement("div");
-        datacont.append(tag);
-        console.log(datacont);
-    }
+            databox.remove();
+            let datacont=document.createElement("div");
+            datacont.append(tag[i]);
+            console.log(datacont);
+        }
+        
     btm.append(datacont);
+    //}
 })
-
-
 
 
 
