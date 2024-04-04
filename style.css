@@ -1,0 +1,141 @@
+body {
+    background-color: #1A1A1C;
+    font-family: Inter;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+#top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#search-box {
+    width: 60%;
+    border: 2px solid grey;
+}
+#search {
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    color: #FFFFFF;
+    padding: 30px;
+}
+
+#sortmkt-box {
+    width: 18%;
+    border: 2px solid grey;
+}
+#sortmkt {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    color: #FFFFFF;
+    padding : 30px;
+}
+
+#sortprt-box {
+    width: 18%;
+    border: 2px solid #555555;
+}
+#sortprt {
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    color: #FFFFFF;
+    padding: 30px;
+}
+
+
+
+#bottom {
+    height: 1106px;
+    opacity: 0px;
+}
+
+#data-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.data-cell {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 4px solid rgb(55, 55, 55);
+}
+
+.data-value {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 22px;
+}
+
+.name img {
+    height: 30px;
+    width: 30px;
+}
+
+.name {
+    display: flex;
+    align-content: end;
+    width: 20%;
+}
+.symbol {
+    width: 8%;
+}
+.amt {
+    display: flex;
+    justify-content: end;
+    width: 15%;
+}   
+.total-amt {
+    display: flex;
+    justify-content: end;
+    width: 18%;
+}
+.percentage {
+    display: flex;
+    justify-content: end;
+    width: 12%;
+}
+.mkt-cap {
+    display: flex;
+    justify-content: end;
+    width: 25%;
+}
+
+
+#mid {
+    position: absolute;
+}
+
+#autosuggest {
+    background-color: rgba(255, 255, 0, 0.564);
+    color: #FFFFFF;
+    padding: 20px;
+    position:absolute;
+    top: 100px;
+    width: 500px;
+    display: none;
+}
